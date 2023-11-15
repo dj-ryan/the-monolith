@@ -1,2 +1,5 @@
-# the-monolith
-A monorepo containing the bits and bobs of different side hustles
+# app script js file
+
+Used in google sheets
+
+This file handels the bot recovery workflow for site 3278
