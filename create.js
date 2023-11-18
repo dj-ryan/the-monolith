@@ -12,6 +12,19 @@
 ( function () {
 
 
+    /*
+    INSTRUCTIONS:
+
+    -Load the home/system/totes or ACS and refresh the page.
+    -Scroll to the bottom of the page and select choose file (located in the far bottom left of the page, very small)
+    -Load a CSV file with the list of totes, no extra columns and no header row (can be full ID or 4 digit end code i.e. T03-00-1234 or 1234)
+    -Press 'CTRL + SHIFT + I' to open the developer tools and select the console tab
+    -Type 'selectICQA()' to run the function
+
+    */
+
+
+
     let ICQAlist = [ ]; // global ICQA list
 
 
@@ -188,8 +201,6 @@
 
     // Append the dynamically created fileInput element to the body of the HTML document
     document.body.appendChild(fileInput);
-
-
 
     // Expose the selectICQA function to the global scope, making it accessible from other parts of the code
     window.selectICQA = selectICQA;
