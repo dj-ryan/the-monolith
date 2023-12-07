@@ -1,2 +1,2 @@
 # the-monolith
-A monorepo containing the bits and bobs of different side hustles
+Grabs the data presented in a chart on Microsoft Dynamics 365 and downloads the values as a csv
